@@ -1,13 +1,13 @@
 # Translation of OpenERP Server.
 # This file contains the translation of the following modules:
-# 	* ssv_template
+# 	* sales_order_incoterm_freetext
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenERP Server 7.0-20131203-002409\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-12-10 11:22+0000\n"
-"PO-Revision-Date: 2013-12-10 13:23+0200\n"
+"POT-Creation-Date: 2014-02-12 08:51+0000\n"
+"PO-Revision-Date: 2014-02-12 10:53+0200\n"
 "Last-Translator: Jesse Vartiainen <jesse@opensolutions.fi>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,63 +16,12 @@ msgstr ""
 "Plural-Forms: \n"
 "X-Generator: Poedit 1.5.7\n"
 
-#. module: ssv_template
-#: field:sale.order,quotation_valid_date:0
-msgid "Quotation valid date"
-msgstr "Tarjous voimassa"
-
-#. module: ssv_template
-#: model:ir.model,name:ssv_template.model_account_analytic_line
-msgid "Analytic Line"
-msgstr "Analyyttinen rivi"
-
-#. module: ssv_template
-#: field:sale.order.line,delivery_date:0
-msgid "Delivery date"
-msgstr "Toimituspäivä"
-
-#. module: ssv_template
-#: view:sale.order:0
-msgid "Quotation valid through"
-msgstr "Tarjous voimassa"
-
-#. module: ssv_template
-#: field:sale.order,payment_term_text:0
-msgid "Extra Information"
-msgstr "Lisätietoa kuljetuksesta"
-
-#. module: ssv_template
-#: model:ir.model,name:ssv_template.model_hr_timesheet_sheet_sheet
-msgid "Timesheet"
-msgstr "Tuntilista"
-
-#. module: ssv_template
-#: view:sale.order:0 view:sale.order.line:0
-msgid "Delivery"
-msgstr "Toimitus"
-
-#. module: ssv_template
-#: view:account.analytic.line:0 field:account.analytic.line,workcenter:0
-#: view:hr_timesheet_sheet.sheet:0 field:hr_timesheet_sheet.sheet,workcenter:0
-msgid "Work type"
-msgstr "Työtyyppi"
-
-#. module: ssv_template
-#: field:hr.analytic.timesheet,workcenter_id:0
-msgid "Work Type"
-msgstr "Työtyyppi"
-
-#. module: ssv_template
-#: model:ir.model,name:ssv_template.model_sale_order
+#. module: sales_order_incoterm_freetext
+#: model:ir.model,name:sales_order_incoterm_freetext.model_sale_order
 msgid "Sales Order"
 msgstr "Myyntitilaus"
 
-#. module: ssv_template
-#: model:ir.model,name:ssv_template.model_hr_analytic_timesheet
-msgid "Timesheet Line"
-msgstr "Tuntilistan rivi"
-
-#. module: ssv_template
-#: model:ir.model,name:ssv_template.model_sale_order_line
-msgid "Sales Order Line"
-msgstr "Myyntitilauksen Rivi"
+#. module: sales_order_incoterm_freetext
+#: field:sale.order,incoterm_text:0
+msgid "Incoterms Extra"
+msgstr "Incoterms lisäteksti"
