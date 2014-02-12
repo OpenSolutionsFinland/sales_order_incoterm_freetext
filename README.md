@@ -1,4 +1,4 @@
-ssv_template
+Incoterm Freetext
 ============
 
-SSV data model improvements for OpenERP
+Adds incoterm freetext to sales order
