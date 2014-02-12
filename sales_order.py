@@ -8,8 +8,7 @@ class sale_order_ssv(osv.osv):
     _inherit='sale.order'
     
     _columns= {
-        'customer_order_nr': fields.char('Customer order number', required=False),
-        'incoterm_text': fields.char('Extra Information', required=False),
+        'incoterm_text': fields.char('Incoterms Extra', required=False),
     }
 
     _defaults = {
